@@ -1,0 +1,20 @@
+.welcome {
+  flex: 1;
+  display: grid;
+  place-items: center;
+}
+
+.welcome_container {
+  text-align: center;
+}
+
+.welcome_container > img {
+  object-fit: contain;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+.welcome_container > h1 {
+  color: black;
+  font-family: Helvetica;
+}

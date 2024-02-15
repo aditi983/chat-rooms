@@ -1,0 +1,31 @@
+.app_back {
+  display: grid;
+  place-items: center;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: top;
+  background-image: url(welcome.jpg);
+  height: 100vh;
+  position: relative;
+  perspective: 1000px;
+  animation: animation 100s linear infinite;
+}
+
+@keyframes animation {
+  100% {
+    background-position: 0px -3000px;
+  }
+}
+
+.app_body {
+  display: flex;
+  background-image: linear-gradient(
+    135deg,
+    #804cff,
+    #cdcdcd
+  ); /*linear-gradient(160deg, #00ff7f, navy);/*#DCDCDC;/*#FFDAB9;*/
+  height: 90vh;
+  width: 90vw;
+  box-shadow: -1px 4px 40px 0px rgba(0, 0, 0, 0.75);
+}
